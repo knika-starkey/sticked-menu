@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      .menu {
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        background: brown;
+      }
+      #menu ul {
+        list-style-type: none;
+      }
+      #menu li {
+        position: relative;
+        float: left;
+        width: 120px;
+        background: gold;
+        padding: 5px;
+        margin: 0 5px 5px 0;
+        height: 20px;
+        top: -16px;
+      }
+      #content {
+        clear: left;
+        background: tan;
+        text-align: justify;
+        padding: 5px;
+        margin-top: 50px;
+      }
+      .fixed {
+        position: fixed;
+        top: 0px;
+        left: 0;
+      }
+
+      #din {
+        position: fixed;
+        left: 20px;
+        bottom: 40px;
+        transition: all 0.5s;
+      }
+      #up {
+        display: block;
+        padding: 20px;
+        background-color: lemonchiffon;
+        color: rgb(207, 26, 26);
+        position: fixed;
+        left: 10px;
+        bottom: 10px;
+        text-decoration: none;
+        font-size: 30px;
+        width: 80px;
+        height: 80px;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 50%;
+        opacity: 0.8;
+        transition: all 0.5s;
+      }
+      #up.fade,
+      #din.fade {
+        opacity: 0;
+      }
+      #load {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 9999;
+        background: url("images/loading.gif") no-repeat center center
+          rgba(0, 0, 0, 0.25);
+      }
+    </style>
+  </head>
+  <body id="top">
+    <div id="load"></div>
+    <div id="contents">
+      <div id="header">
+        <h1>Lorem</h1>
+      </div>
+      <div id="menu" class="menu">
+        <ul>
+          <li><a href="#menu"> Lorem</a></li>
+          <li><a href="#content">Voluptatibus</a></li>
+          <li><a href="#contacts">Hic</a></li>
+          <li><a href="#footer">Nesciunt</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <img src="./images/f4.jpg" alt="" class="fade" id="din" height="100" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+          accusamus maxime eos recusandae rerum dolor natus doloremque impedit!
+          Quam cumque consequatur est dignissimos quibusdam officia culpa
+          aperiam autem similique veritatis?
+        </p>
+        <p>
+          Ea molestiae officia rem mollitia dicta quod? Est qui distinctio
+          deleniti iste repellat nesciunt, non ex odit! Sequi asperiores illo ea
+          ratione iste laudantium cupiditate recusandae assumenda, quod rerum
+          repudiandae.
+        </p>
+        <p>
+          Quibusdam impedit necessitatibus magnam illo quo blanditiis eum
+          eligendi, rerum, culpa voluptas facere aliquam dolorem sapiente quae
+          recusandae fugiat explicabo cupiditate. Corporis iusto praesentium
+          quam tempora eligendi eveniet dicta ad?
+        </p>
+        <p>
+          Dicta aliquam nesciunt, distinctio itaque inventore tenetur eaque
+          nobis natus, nisi sint quaerat debitis? Nobis repellendus incidunt
+          voluptatem perferendis nesciunt alias! Modi ipsam dolor fugit at
+          quidem non facere facilis.
+        </p>
+        <p>
+          Perferendis molestiae voluptatum amet a rerum accusantium
+          necessitatibus. Distinctio officiis explicabo quaerat. Fugiat eos vero
+          iusto consequuntur pariatur asperiores ad laboriosam molestiae aliquam
+          culpa, eius, quidem autem dicta debitis modi.
+        </p>
+        <p>
+          Molestias, corrupti laudantium! Deleniti nihil eos necessitatibus
+          quibusdam rerum iusto nisi blanditiis omnis non enim sint cupiditate
+          sit iste inventore alias ea amet, culpa atque distinctio sapiente
+          ipsam nam ut.
+        </p>
+        <p>
+          Ab beatae, dolore impedit perferendis delectus saepe odit possimus
+          nesciunt omnis debitis quidem natus molestias quisquam sequi maxime
+          deleniti laudantium placeat. Debitis, excepturi? Magni magnam ab,
+          natus eaque fugiat odio.
+        </p>
+        <p>
+          Porro mollitia debitis, exercitationem corporis consectetur voluptates
+          provident ab cum eligendi commodi, vero itaque, doloremque autem
+          maxime. Rem cum est, tempora, deleniti nisi odit repudiandae dolor
+          ipsum placeat explicabo pariatur.
+        </p>
+        <p>
+          Totam assumenda, veritatis fuga omnis doloremque eos, eius laudantium
+          dicta similique, placeat non. Repudiandae quidem iste nam saepe
+          ducimus magnam doloribus, quas asperiores facere excepturi harum minus
+          est eaque expedita.
+        </p>
+        <p>
+          Sunt quos laborum esse adipisci rem, tenetur ducimus repudiandae sit
+          velit culpa ut mollitia minima id maiores sed illo ipsam, eligendi
+          sequi quisquam expedita? Esse omnis ducimus nesciunt nihil itaque.
+        </p>
+        <p>
+          Debitis consectetur vitae porro error saepe est ullam quasi accusamus
+          fugit dolor animi, ad eveniet suscipit eligendi ratione non itaque ea
+          praesentium ab quo odit odio. Maxime atque veritatis error?
+        </p>
+        <p>
+          Dignissimos corrupti repellat obcaecati fugiat? Asperiores nesciunt
+          porro consequatur error possimus, enim deserunt animi! Ducimus, ut
+          asperiores natus ipsam optio laudantium ipsa sit omnis quam
+          accusantium nobis incidunt at. Ipsum.
+        </p>
+        <p>
+          Rerum excepturi illum tempore blanditiis soluta numquam odit enim,
+          facilis dolorum harum ut dignissimos ducimus hic, asperiores eos
+          tenetur necessitatibus? Aperiam architecto repudiandae asperiores
+          nesciunt aliquid sapiente totam non alias!
+        </p>
+        <p>
+          Similique, quo. Soluta, cupiditate reprehenderit unde excepturi fuga,
+          modi voluptas veritatis beatae culpa at eveniet corporis vero sed
+          assumenda in quidem tempore quos repellendus itaque officiis sint,
+          fugit doloribus ipsam!
+        </p>
+        <p>
+          Rem obcaecati aperiam explicabo amet incidunt in! Fugit velit qui
+          ratione autem repudiandae error reiciendis ex harum saepe placeat,
+          inventore libero pariatur quo? Repudiandae amet distinctio libero
+          laborum facere iure!
+        </p>
+        <p>
+          Numquam quibusdam perferendis, temporibus voluptate provident, soluta
+          aspernatur nihil iure dicta consequuntur odio autem similique sed.
+          Hic, cupiditate odit? Beatae similique ad labore hic veritatis
+          voluptatem numquam culpa temporibus mollitia.
+        </p>
+        <p>
+          Eos sint aut, illum nesciunt tempore saepe? Aut quae obcaecati quaerat
+          aperiam voluptas veritatis odio dolores distinctio ea porro, maiores
+          nihil excepturi, iure, cupiditate labore repudiandae impedit neque
+          modi unde!
+        </p>
+        <p>
+          Id doloremque similique quo eius voluptatem neque voluptate numquam
+          obcaecati est cum quasi quis alias laudantium reprehenderit, assumenda
+          corrupti quidem earum, amet beatae esse nesciunt? Corrupti modi saepe
+          pariatur accusamus.
+        </p>
+        <p>
+          Quod eos nobis corporis iste laudantium explicabo cumque officia error
+          ipsam repellendus architecto quibusdam tempora maxime, consectetur
+          commodi beatae ut autem et. Consectetur dolore consequatur neque eius
+          quibusdam at voluptates?
+        </p>
+        <p>
+          Culpa, perspiciatis rerum dicta ut in soluta cumque voluptates nemo,
+          odit eveniet nulla iste voluptatem praesentium nihil necessitatibus
+          ratione laborum? Voluptatum sit, incidunt ex laborum minus quo quos
+          blanditiis quae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          ducimus, facere placeat porro voluptate totam, in ab id, provident
+          laboriosam deserunt? Rem nesciunt adipisci, magnam qui neque quidem
+          vitae commodi!
+        </p>
+      </div>
+      <div id="footer">
+        <h3>2022</h3>
+      </div>
+      <a href="#top" id="up" class="fade">&uArr;</a>
+    </div>
+    <script>
+      let imgDin = document.getElementById("din");
+      window.onload = function () {
+        let menu = document.getElementById("menu");
+        let upB = document.getElementById("up");
+        let menuBottom = 300; // пограничное значения отступа от верхнего края при прокрутке
+        window.onscroll = function () {
+          if (document.documentElement.scrollTop < menuBottom) {
+            // или document.body.scrollTop > menuBottom
+            menu.classList.remove("fixed"); // удаляем класс 'fixed'
+            upB.classList.add("fade");
+          } else {
+            menu.classList.add("fixed"); // добавляем класс 'fixed'
+            upB.classList.remove("fade");
+          }
+          if (document.documentElement.scrollTop > menuBottom) {
+            if (imgDin.classList.contains("fade"))
+              imgDin.classList.remove("fade");
+          }
+          if (document.documentElement.scrollTop < 300) {
+            imgDin.src = "./images/f4.jpg";
+            imgDin.style.left = "400px";
+            imgDin.style.bottom = "40px";
+          }
+          if (document.documentElement.scrollTop > 500) {
+            imgDin.src = "./images/f7.jpg";
+            imgDin.style.left = "800px";
+            imgDin.style.bottom = "60%";
+          }
+          if (document.documentElement.scrollTop > 800) {
+            imgDin.src = "./images/f8.jpg";
+            imgDin.style.left = "20px";
+            imgDin.style.bottom = "40px";
+          }
+        };
+        let state = document.readyState;
+        if (state == "interactive") {
+          document.getElementById("contents").style.visibility = "hidden";
+          document.getElementById("load").style.visibility = "visible";
+        } else if (state == "complete") {
+          setTimeout(function () {
+            document.getElementById("load").style.visibility = "hidden";
+            document.getElementById("contents").style.visibility = "visible";
+          }, 2000);
+        }
+      };
+    </script>
+  </body>
+</html>
